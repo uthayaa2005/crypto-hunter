@@ -139,7 +139,7 @@ const Header = () => {
               onClick={() => navigate('/cart')}
             >
               <ShoppingCartOutlinedIcon className={classes.icon} />
-              <span className={classes.cartText}>{user ? 'Cart' : 'Login'}</span>
+              
             </Button>
             {user && (
               <>
@@ -150,7 +150,7 @@ const Header = () => {
                   className={classes.button}
                 >
                   <AccountCircleOutlinedIcon className={classes.icon} />
-                  <span className={classes.userName}>{user.name}</span>
+                 
                 </IconButton>
                 <Menu
                   id="simple-menu"
