@@ -119,7 +119,7 @@ const Header = () => {
       <AppBar color="transparent" position="static">
         <Container>
           <Toolbar>
-            <Typography onClick={() => navigate('/homepage')} className={classes.title}>
+            <Typography onClick={() => navigate('/')} className={classes.title}>
               Crypto Hunter
             </Typography>
             <Select
